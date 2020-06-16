@@ -1,4 +1,4 @@
-# values-text-interperter
+# values
 Store variables in a file in c++
 
 Compile with:
