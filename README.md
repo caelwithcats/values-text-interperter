@@ -3,6 +3,6 @@ Store variables in a file in c++
 
 Compile with:
    
-   g++ values.cpp example.cpp -std=gnu++17
+    g++ values.cpp example.cpp -std=gnu++17
 
     
