@@ -34,7 +34,7 @@ void saveValues(std::map<std::string, VariableClass> &variables, std::string pat
         }
         it++;
     }
-    toSave += "\n#end";
+    toSave += "#end";
     std::cout << toSave << std::endl;
     std::ofstream outfile;
     outfile.open(path);
