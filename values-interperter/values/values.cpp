@@ -57,7 +57,7 @@ $valueInt=54,
     source = buffer.str();
     char lastChar;
     bool skip = false;
-    for(int i = 0; i < source.length(); i++){
+    for(int i = 0; i < source.length() - 1; i++){
         if(!skip){
         if(source.at(i) == '/' && lastChar == '/'){
             //the line is a comment and should be skipped
